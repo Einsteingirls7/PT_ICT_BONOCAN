@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Hi Elsa! You Can Contact Me! </title>
+	<link 
+	  rel="stylesheet" 
+	  href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+	  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+	  crossorigin="anonymous"
+	  />
+	  <script src="index.js"></script>
+	  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("vPIfM-P5f8PYsnUFB");
+   })();
+</script>
+	</head>
+	<body>
+		<div class="container border mt-3 bg-light">
+			<div class="row">
+				<div class="col-md-6 p-5 bg-primary text-white">
+					<h1> Really Elsa?! Thank You! </h1>
+					<h4> Kindly Send Your Message To Me! 🥰 </h4>
+				</div>
+				<div class="col-md-6 py-3">
+					<h1>Message To Your Sister Anna! 🥰 </h1>
+					<div class="form-group">
+					<h5 for="name"> Kindly Enter Your Name Please! 🥰 </h5>
+					<input 
+					type="text" 
+					class="form-control" 
+					id="name" 
+					placeholder="Kindly Enter Your Name Please! 🥰"/>
+				</div>
+				<div class="form-group">
+					<h5 for="email"> Kindly Enter Your Email Please! 🥰 </h5>
+					<input 
+					type="email" 
+					class="form-control" 
+					id="email" 
+					placeholder="Kindly Enter Your Email Please! 🥰"/>
+				</div>
+				<div class="form-group">
+					<h5 for="message"> Kindly Enter Your Message Please! 🥰 </h5>
+					<textarea id="message" rows="3" class="form-control"></textarea>
+				</div>
+				<button class="btn btn-primary"onclick="sendMail()"> Kindly Send It! 🥰 </button>
+				<a href="index.html">You Can Go Back Now 🥰</link>
+			</div>
+		</div>
+	</div>
+	</body>
+	</html>
