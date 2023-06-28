@@ -6,9 +6,8 @@ function sendMail(){
 	
 	};
 
-const serviceID ="service_1wkcb95";
-const templateID ="template_kyj5q4j";
-
+const serviceID ="service_yuevtph";
+const templateID ="service_yuevtph";
 emailjs.send(serviceID,templateID,params)
 .then(
 	res =>{
@@ -18,4 +17,4 @@ emailjs.send(serviceID,templateID,params)
 		console.log(res);
 		alert("Thank You Elsa Your Message For Me Has Been Sent Successfully");
 	})
-.catch(err=>console.log(err));
+.catch(err=>console.log(err));                                                       }
